@@ -1,32 +1,26 @@
-<h1>List of Movies</h1>
-<%= link_to 'Add New Movie', new_movie_path %>
+<h1 style="text-align:center">Luqy Movie Database</h1>
 
-<table border="1" style="width:100%">
+<table border="1" style="width:75%; margin:auto">
   <tr>
     <th>Title</th>
-    <th>Year Released</th>
-	<th>Runtime</th>
-	<th>Director</th>
 	<th>On Netflix?</th>
 	<th>On Amazon?</th>
 	<th>On Hulu?</th>
-	<th>Link to Page</th>
-	<th>Edit Listing</th>
+	<th>Year Released</th>
+	<th>Runtime</th>
+	<th>Director</th>
 	
   </tr>
  
   <% @movies.each do |movie| %>
     <tr>
-      <td><%= movie.title %></td>
-      <td><%= movie.year %></td>
-	  <td><%= movie.runtime %></td>
-	  <td><%= movie.director %></td>
+      <td><%= link_to movie.title, movie_path(movie) %></td>
 	  <td><%= movie.netflix %></td>
 	  <td><%= movie.amazon %></td>
 	  <td><%= movie.hulu %></td>
-	  <td><%= link_to 'Movie Page', movie_path(movie) %></td>
-	  <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
-	  
+      <td><%= movie.year %></td>
+	  <td><%= movie.runtime %></td>
+	  <td><%= movie.director %></td>	  
     </tr>
   <% end %>
 </table>
