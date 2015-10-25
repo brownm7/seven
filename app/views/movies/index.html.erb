@@ -2,7 +2,7 @@
 
 <h1 style="text-align:center"><%= form_tag("/search", method: "get") do %>
   <%= label_tag(:q, "Search for a movie:") %>
-  <%= text_field_tag(:q) %>
+  <%= text_field_tag(:q, "Search In Space") %>
   <%= submit_tag("Lift off!") %>
 <% end %></h1>
 
@@ -31,3 +31,4 @@
   <% end %>
 </table>
 
+<p style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
