@@ -13712,3 +13712,2237 @@ Processing by MoviesController#index as HTML
   [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
   Rendered movies/index.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:33:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 459ms (Views: 449.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:33:34 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:33:35 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:40:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 235ms (Views: 226.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:40:20 -0400
+
+
+Started GET "/movies/new" for ::1 at 2015-10-25 23:40:26 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:40:26 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 15ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/movies" for ::1 at 2015-10-25 23:40:29 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/new" for ::1 at 2015-10-25 23:43:33 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:43:34 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.4ms)
+
+
+Started GET "/movies" for ::1 at 2015-10-25 23:43:41 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:43:41 -0400
+
+
+Started GET "/movies/new" for ::1 at 2015-10-25 23:43:44 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:43:44 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:43:46 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:44:09 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:44:09 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:46:41 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:46:41 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:42 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:42 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:42 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:46:42 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:46:50 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/application.self-ab1de3713f9542b2aec4a991d78b1fc39a4b7e175b9b235d0ea53424b7d77c46.css?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:46:50 -0400
+
+
+Started GET "/movies/1" for ::1 at 2015-10-25 23:47:53 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:47:53 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.7ms)
+
+
+Started GET "/movies/new" for ::1 at 2015-10-25 23:47:57 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:47:57 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.6ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.3ms)
+
+
+Started GET "/movies/2" for ::1 at 2015-10-25 23:48:01 -0400
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered movies/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:48:01 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:50:10 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/application.self-a3f6bc256176e6b55d8ed0bbfd6ee42104c219e56d3b9bb84432833369f0c134.css?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:50:10 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:50:22 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:22 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:22 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/application.self-47a020c4ef65c5de1f5671b31d84eeb98dacefc0e89aedef128fe8c4ee054544.css?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:50:23 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:50:54 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/application.self-47a020c4ef65c5de1f5671b31d84eeb98dacefc0e89aedef128fe8c4ee054544.css?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:50:54 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:52:47 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/application.self-c311de77d69a7f7604b62341e1b6e40e9f230d1a5c6ac3bcbd910db7cea240f1.css?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:52:47 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:52:57 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/application.self-48cbe7075ac04720c8d639f0db032f61e429752e77b2d65e892d9510ff200472.css?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:52:57 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:53:22 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/application.self-48cbe7075ac04720c8d639f0db032f61e429752e77b2d65e892d9510ff200472.css?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:53:22 -0400
+
+
+Started GET "/movies/new" for ::1 at 2015-10-25 23:53:25 -0400
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/bg.jpg" for ::1 at 2015-10-25 23:53:25 -0400
+Processing by MoviesController#show as JPEG
+  Parameters: {"id"=>"bg"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=bg):
+  app/controllers/movies_controller.rb:8:in `show'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:53:34 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/application.self-48cbe7075ac04720c8d639f0db032f61e429752e77b2d65e892d9510ff200472.css?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:53:34 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:53:53 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/application.self-48cbe7075ac04720c8d639f0db032f61e429752e77b2d65e892d9510ff200472.css?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:53:54 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&q=Search+In+Space&commit=Lift+off%21" for ::1 at 2015-10-25 23:54:00 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.8ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/emilypantuso/.rbenv/versions/2.1.6/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-25 23:55:23 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/application.self-6c713a79df0ab878fa1fb1bf517e2a3f4b349128fd248e5f4598b06d249f5e86.css?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:55:23 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:55:31 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:31 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:31 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:31 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/application.self-705d5d5497e73fd400b59ca9320387d6f279f4710e190d7680a482e0a90d743d.css?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:55:32 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:55:41 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/application.self-94310686d975595c65f4edefa8b51f510eb45a58b3ccb790592d7ad1fe3869f4.css?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:55:42 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:56:21 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/application.self-41712904c2acced5fd6c87a07a31237d9ebbb22e8f9b29802e7918357ac4a466.css?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:56:21 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:56:31 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/application.self-449a8551cbcf154e944f337a918502f54a7c480571d7d336e8b23e6e7afb0bfb.css?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:56:31 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:56:39 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/application.self-53b8435618c05d8bb440b056f053d2a191b3d55ca31af5b4cc00d948d69a52ab.css?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:56:39 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:57:35 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/application.self-e98430e1b73d4a017867d1af371772933c7892d937b240f7898b3410dedcc2e8.css?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:57:35 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:57:40 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/application.self-bd9b0aa5244a1283115864d9dc58e1f4e91708158435ac809a617262bfb997e5.css?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:57:40 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:57:46 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/application.self-bd9b0aa5244a1283115864d9dc58e1f4e91708158435ac809a617262bfb997e5.css?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:57:46 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:58:05 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/application.self-8a50983d798499d730a61e6f9531541c1eac73d13f7fbdd3da917d58bec29a15.css?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:58:05 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:58:18 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/application.self-7545586af1f73b64c4ca4fe26a68a785132054de0534900247ae696752959e83.css?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:58:18 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:58:56 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/application.self-7f621c908550847f49414c30cfe516e51587ae7a223ee8e3ec5e92d554c90806.css?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:58:56 -0400
+
+
+Started GET "/" for ::1 at 2015-10-25 23:59:19 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/application.self-62012992010dea006cbc9d8dd53f810aa0d75a172c597bf6fb54391fdb50dbf1.css?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-25 23:59:19 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:00:57 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/application.self-9f6fd9caa60241d504e9a0ec463dcfc19dd94dc2824fa60842400ef1777dee77.css?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:00:57 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:18:37 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/application.self-9f6fd9caa60241d504e9a0ec463dcfc19dd94dc2824fa60842400ef1777dee77.css?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:18:37 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:12 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/application.self-bebd1f6d91317ff526db3576f21bf2ed87191ed0ca2cc2d3e3e080ca35ba02ed.css?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:12 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:19 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/application.self-81cc69a95838fba811e2beaaf3c75aed69bcf0b82148de925440904f891a1bf7.css?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:19 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:29 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/application.self-49dd08edda3c50d9b9d5bff2c0517bb9dcbfa11d23da7afcea76b264497fd667.css?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:29 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:35 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/application.self-1f37aebe7a481eba399db3074e67626cac5324bbf75749899082a9ba399e6c26.css?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:35 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:45 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/application.self-5d1396678bacbd68fd18450e78799cbdf1d97c0cbd6c3fdcc2fb7c63799b94bb.css?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:45 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:49 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/application.self-61be639427b5cc30df9f353eb7e17be8eb1b18e3966103560f172b5e215234fa.css?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:49 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:20:56 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/application.self-5d1396678bacbd68fd18450e78799cbdf1d97c0cbd6c3fdcc2fb7c63799b94bb.css?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:20:56 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:04 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/application.self-1dae7493023481b1643fc271d3873bba7783f32bf97e14cd201cc825700608ed.css?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:04 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:13 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/application.self-f8839992a524d38ad9dcc02c236a79da86f3cead91af977b5c8ad6a87cb61c5c.css?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:13 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:17 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/application.self-f8839992a524d38ad9dcc02c236a79da86f3cead91af977b5c8ad6a87cb61c5c.css?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:17 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:23 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/application.self-764264eee1f878c02ae0ee91748f2e3b2f958da80009e7541ed389d9faa0597a.css?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:23 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:31 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/application.self-19c4ff00860aa5068a52b767ffb391c84a55df62e6bb79cfe0a0c83bbf74b101.css?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:31 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:36 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/application.self-b928ebf0c6ea6b293e34f8b9127b45b394e5834489a3656b80930d1dd6252ac4.css?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:36 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:40 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/application.self-e230f538bb39ad3555def0bca69990850571c75ba006ab662374d6e5e98cb098.css?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:21:40 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:21:59 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/application.self-aaeb6f5a4037661a55903017cc28fef82222e2175f4a8b2ffc5eb80166136550.css?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:21:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:22:00 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:00 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:00 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:00 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:22:00 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:22:07 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/application.self-02bc766740f53796990cc2d698efbf63678e21afa20da450c34e37ff2106dd06.css?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:22:07 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:22:12 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/application.self-b1da639db39d15df3e0e33b861eea730d761f497cb039f9cf0c95f84f7af1b06.css?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:22:12 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:22:17 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/application.self-ba7b93e8070f94b39e7da8d3c3e03dc26cd1bf54699cd48e7aabaf67b5a59fba.css?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:22:17 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:22:22 -0400
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/application.self-46314deef76242c6cd6ce9d721c50829dca32d336c752521d2ab8e5dbd0be999.css?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:22:22 -0400
+
+
+Started GET "/" for ::1 at 2015-10-26 00:23:49 -0400
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/application.self-46314deef76242c6cd6ce9d721c50829dca32d336c752521d2ab8e5dbd0be999.css?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-26 00:23:49 -0400

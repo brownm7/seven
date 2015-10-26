@@ -13,10 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ h1, h2, p, a {
+ 	font-family: Arial, Helvetica, sans-serif;
+ }
+
+ table {
+ 	border: 0px;
+ 	border-radius: 30px;
+ 	padding: 20px;
+ 	
+ }
+ table {
+ 	background-color: rgba(100,150,255,0.3);
+ }
+
+ th, td {
+ 	border: 0px;
+ 	padding: 8px;
+ }
  
  /* unvisited link */
 a:link {
     color: white;
+    text-decoration: none;
 }
 
 /* visited link */
@@ -26,7 +46,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: white;
+    color: teal;
 }
 
 /* selected link */
