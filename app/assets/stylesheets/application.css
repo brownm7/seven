@@ -14,9 +14,9 @@
  *= require_self
  */
 
- h1, h2, p, a {
- 	font-family: Arial, Helvetica, sans-serif;
- }
+h1, h2, p, a, th, td {
+	font-family: San Francisco;
+}
 
  table {
  	border: 0px;
