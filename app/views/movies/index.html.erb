@@ -1,9 +1,9 @@
 <h1 style="text-align:center">Luqy Movie Database</h1>
 
-<h1 style="text-align:center"><%= form_tag("/search", method: "get") do %>
-  <%= label_tag(:q, "Search for a movie:") %>
-  <%= text_field_tag(:q, "Search In Space") %>
-  <%= submit_tag("Lift off!") %>
+<h1 style="text-align:center"><%= form_tag movies_path,  :method=> 'get' do %>
+  <%= label_tag "Search for a movie" %>
+  <%= text_field_tag :search, params[:search] %>
+  <%= submit_tag "Lift off!", :name=> nil %>
 <% end %></h1>
 
 <table border="1" style="width:75%; margin:auto">
