@@ -18,6 +18,11 @@ h1, h2, p, a, th, td {
 	font-family: San Francisco;
 }
 
+body {
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+}
+
  table {
  	border: 0px;
  	border-radius: 30px;
