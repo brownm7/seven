@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+
+h1, h2, p, a, th, td {
+	font-family: San Francisco;
+}
+
+body {
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+}
+
+ table {
+ 	border: 0px;
+ 	border-radius: 30px;
+ 	padding: 20px;
+ 	
+ }
+ table {
+ 	background-color: rgba(100,150,255,0.3);
+ }
+
+ th, td {
+ 	border: 0px;
+ 	padding: 8px;
+ }
+ 
+ td img {
+ 	height: 40px;
+ }
+ 
+ /* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}

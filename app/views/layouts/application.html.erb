@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Seven</title>
-<<<<<<< HEAD
-  <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
-=======
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
->>>>>>> origin/master
+  <title>Se7en</title>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application'%>
+  <%= javascript_include_tag 'parallax.js'%>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body bgcolor="black">	
+<font color="white">
+<div class="parallax-window" data-parallax="scroll" data-image-src=<%= image_url "maxresdefault.jpg"%> style="min-height: 1200px;
+    background: transparent;">
+
 
 <%= yield %>
 
+</div>
+</font>
 </body>
 </html>
