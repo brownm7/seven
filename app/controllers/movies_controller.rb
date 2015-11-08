@@ -3,8 +3,9 @@ class MoviesController < ApplicationController
 	def index
 	   if params[:search]
 	     @movies = Movie.where("title LIKE ?", "%#{params[:search]}%")
-	   else
-	     @movies = Movie.all
+	   else 
+	     @movies = Movie.order(params[:sort])
+
 	   end
 	end
 	
@@ -49,4 +50,19 @@ class MoviesController < ApplicationController
 			params.require(:movie).permit(:title, :year, :runtime, 
 			:director, :description, :netflix, :hulu, :amazon)
 	end
+	
+	def sort_column
+		Product.column
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 end
