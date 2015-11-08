@@ -9,24 +9,18 @@
 <table border="1" style="width:75%; margin:auto">
   <tr>
     <th>Title</th>
-	<th>On Netflix?</th>
-	<th>On Amazon?</th>
-	<th>On Hulu?</th>
+    <th>Available Streaming Services</th>
 	<th>Year Released</th>
-	<th>Runtime</th>
-	<th>Director</th>
 	
   </tr>
  
   <% @movies.each do |movie| %>
-    <tr>
+    <tr style="height: 50px">
       <td><%= link_to movie.title, movie_path(movie) %></td>
-	  <td><%= movie.netflix %></td>
-	  <td><%= movie.amazon %></td>
-	  <td><%= movie.hulu %></td>
-      <td><%= movie.year %></td>
-	  <td><%= movie.runtime %></td>
-	  <td><%= movie.director %></td>	  
+	  <td style="text-align:center; width: 100px"><%= if movie.amazon == "Yes" then image_tag "AmazonPrimeLogo.png" end %>
+	  <%= if movie.netflix == "Yes" then image_tag "NetflixLogo.png" end %>
+	  <%= if movie.hulu == "Yes" then image_tag "HuluLogo.png" end %></td>
+      <td style="text-align:center; width: 100px"><%= movie.year %></td>  
     </tr>
   <% end %>
 </table>

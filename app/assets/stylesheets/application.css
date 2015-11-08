@@ -38,6 +38,10 @@ body {
  	padding: 8px;
  }
  
+ td img {
+ 	height: 40px;
+ }
+ 
  /* unvisited link */
 a:link {
     color: white;
