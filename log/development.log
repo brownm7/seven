@@ -22724,6 +22724,7 @@ Started GET "/assets/HuluLogo-bcb51fcf14e51a604bad725e54a1817a2e15a1dbecb10cbceb
 
 
 Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-08 11:08:46 -0500
+<<<<<<< HEAD
 
 
 Started GET "/" for ::1 at 2015-11-08 14:46:59 -0500
@@ -23369,3 +23370,5 @@ Processing by MoviesController#index as HTML
   [1m[36mMovie Load (1.0ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
   Rendered movies/index.html.erb within layouts/application (115.2ms)
 Completed 200 OK in 528ms (Views: 527.1ms | ActiveRecord: 1.0ms)
+=======
+>>>>>>> origin/master

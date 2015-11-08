@@ -3,8 +3,13 @@ class MoviesController < ApplicationController
 	def index
 	   if params[:search]
 	     @movies = Movie.where("title LIKE ?", "%#{params[:search]}%")
+<<<<<<< HEAD
 	   else 
 	     @movies = Movie.order(params[:sort])
+=======
+	   else
+	     @movies = Movie.all
+>>>>>>> origin/master
 	   end
 	end
 	
