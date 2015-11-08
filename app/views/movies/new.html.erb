@@ -1,7 +1,11 @@
-<h1>Add New Movie</h1>
+<center><%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "30%", :width => "30%") %></center>
+
+<div id="content">
+
+<h1 style="color:black">Add New Movie</h1>
 <%= form_for :movie, url: movies_path do |f| %>
 <p>
-	<%= f.label :title %><br>
+	<%= f.label :title%><br>
 	<%= f.text_field :title %>
 </p>
 <p>
@@ -37,5 +41,5 @@
 	<%= f.submit %>
 </p>
 <% end %>
-
-<%= link_to 'Back to Movie List', movies_path %>
+</div>
+<%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>

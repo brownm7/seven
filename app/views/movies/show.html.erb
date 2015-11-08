@@ -1,42 +1,48 @@
-<p>
-  <strong>Title:</strong>
+<center><%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "30%", :width => "30%") %></center>
+
+<div id="content">
+
+<h2 style="color:black">
   <%= @movie.title %>
-</p>
+</h2>
  
 <p>
-  <strong>Year:</strong>
+  <strong style="color:#006699">Year:&nbsp;</strong>
   <%= @movie.year %>
 </p>
 
 <p>
-  <strong>Runtime:</strong>
+  <strong style="color:#006699">Runtime:&nbsp;</strong>
   <%= @movie.runtime %>
 </p>
 
 <p>
-  <strong>Director:</strong>
+  <strong style="color:#006699">Director:&nbsp;</strong>
   <%= @movie.director %>
 </p>
 
 <p>
-  <strong>On Netflix:</strong>
+  <strong style="color:#006699">On Netflix:&nbsp;</strong>
   <%= @movie.netflix %>
 </p>
 
 <p>
-  <strong>On Amazon:</strong>
+  <strong style="color:#006699">On Amazon:&nbsp;</strong>
   <%= @movie.amazon %>
 </p>
 
 <p>
-  <strong>On Hulu:</strong>
+  <strong style="color:#006699">On Hulu:&nbsp;</strong>
   <%= @movie.hulu %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong style="color:#006699">Description:&nbsp;</strong>
   <%= @movie.description %>
 </p>
+</div>
+<center>
+<%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
+<%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
+</center>
 
-<%= link_to 'Edit', edit_movie_path(@movie) %>
-<%= link_to 'Back to Movie List', movies_path %>
