@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   # <<<<<<< HEAD
   # get 'welcome/index'
   get 'home/index'
-  resources :movies
+  resources :movies do
+    resources :comments
+  end
   # =======
   # >>>>>>> origin/master
   # The priority is based upon order of creation: first created -> highest priority.

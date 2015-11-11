@@ -26,6 +26,26 @@ h1, h2{
 	text-align: center;
 	color: #F8CC21;
 }
+h4{
+	color: #F8CC21;
+}
+h4#comment{
+	color: #F8CC21;
+	text-align: center;
+}
+h5#comment{
+	text-align:center;
+}
+p#comment_box{
+	 width: 50%;
+	padding: 15px;
+ 	margin: auto;
+}
+p#comment_button{
+	width: 50%;
+	padding: 15px;
+	margin: auto;
+}
 body {
 	background-size: 100%, 100%;
 	background-repeat: no-repeat;
