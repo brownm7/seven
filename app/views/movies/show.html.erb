@@ -1,48 +1,34 @@
-<center><%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "30%", :width => "30%") %></center>
-
-<div id="content">
-
-<h2 style="color:black">
-  <%= @movie.title %>
-</h2>
- 
-<p>
-  <strong style="color:#006699">Year:&nbsp;</strong>
-  <%= @movie.year %>
-</p>
-
-<p>
-  <strong style="color:#006699">Runtime:&nbsp;</strong>
-  <%= @movie.runtime %>
-</p>
-
-<p>
-  <strong style="color:#006699">Director:&nbsp;</strong>
-  <%= @movie.director %>
-</p>
-
-<p>
-  <strong style="color:#006699">On Netflix:&nbsp;</strong>
-  <%= @movie.netflix %>
-</p>
-
-<p>
-  <strong style="color:#006699">On Amazon:&nbsp;</strong>
-  <%= @movie.amazon %>
-</p>
-
-<p>
-  <strong style="color:#006699">On Hulu:&nbsp;</strong>
-  <%= @movie.hulu %>
-</p>
-
-<p>
-  <strong style="color:#006699">Description:&nbsp;</strong>
-  <%= @movie.description %>
-</p>
+<body>
+<div id="logotop">
+<%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "40%", :width => "40%") %>
 </div>
-<center>
-<%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
-<%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
-</center>
 
+<div id="showContent">
+  <h2><%= @movie.title %></h2>
+  <hr>
+  <div class="showContainer">
+      <div class="showLeft">
+        <strong>Year:&nbsp;</strong>  <%= @movie.year %><br>
+        <strong>Runtime:&nbsp;</strong>  <%= @movie.runtime %><br>
+        <strong>Director:&nbsp;</strong>  <%= @movie.director %><br>
+      </div>
+      <div class="showRight">
+        <strong>On Netflix:&nbsp;</strong>  <%= @movie.netflix %><br>
+        <strong>On Amazon:&nbsp;</strong>  <%= @movie.amazon %><br>
+        <strong>On Hulu:&nbsp;</strong>  <%= @movie.hulu %><br>
+      </div>
+  </div>
+
+  <div class="bottom"><p>
+      <strong>Description:&nbsp;</strong>
+    <%= @movie.description %>
+  </p></div>
+
+</div>
+
+  <center>
+  <%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
+  <%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
+  </center>
+
+</body>

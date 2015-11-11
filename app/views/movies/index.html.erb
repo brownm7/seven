@@ -1,42 +1,37 @@
 <!--<h1 style="text-align:center">Luqy Movie Database</h1>-->
-<div id="logotop">
-<%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "200px", :id => "logo")%>
 
+<!-- <div id="top"> -->
+  <div id="logotop">
+  <%= image_tag("LuqySevenLogo.png", :alt => "LuqySevenLogo", :height => "30%", :width => "30%") %>
+  </div>
 
-
-<h3 style="text-align:right" width="40%"><%= form_tag movies_path,  :method=> 'get' do %>
-  <%= label_tag "Search Movies:" %> &nbsp;
-  <%= text_field_tag :search, params[:search] %> &nbsp;
-  <%= submit_tag "Lift off!", :name=> nil %>
-<% end %></h3>
-<p class="buttonLink" style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
-
-</div>
-
+  <div id="midi">
+    <center>
+    <h3><%= form_tag movies_path,  :method=> 'get' do %>
+      <%= label_tag "Search Movies:" %> &nbsp;
+      <%= text_field_tag :search, params[:search] %> &nbsp;
+      <%= submit_tag "LIFT OFF!", :name=> nil %>
+    <% end %></h3>
+    <h3 class="buttonLink" style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
+      </center>
+  </div>
+<!-- </div> -->
 
 <div id="content">
-
-<table border="1" style="width:75%; margin:auto">
-  <tr>
-
-
-    <th><%= link_to "Title", :sort => "title" %></th>
-    <th>Available Streaming Services</th>
-	<th><%= link_to "Year Released", :sort => "year" %></th>
-
-  </tr>
- 
-  <% @movies.each do |movie| %>
+  <table border="1" style="width:75%; margin:auto">
+    <tr>
+      <th><%= link_to "Title", :sort => "title" %></th>
+      <th>Streaming Services</th>
+  	  <th><%= link_to "Year Released", :sort => "year" %></th>
+    </tr>
+    <% @movies.each do |movie| %>
     <tr style="height: 50px">
       <td><%= link_to movie.title, movie_path(movie) %></td>
-	  <td style="text-align:center; width: 100px"><%= if movie.amazon == "Yes" then image_tag "AmazonPrimeLogo.png" end %>
-	  <%= if movie.netflix == "Yes" then image_tag "NetflixLogo.png" end %>
-	  <%= if movie.hulu == "Yes" then image_tag "HuluLogo.png" end %></td>
-      <td style="text-align:center; width: 100px"><%= movie.year %></td>  
+  	  <td style="text-align:center; width: 100px"><%= if movie.amazon == "Yes" then image_tag "AmazonPrimeLogo.png" end %>
+  	  <%= if movie.netflix == "Yes" then image_tag "NetflixLogo.png" end %>
+  	  <%= if movie.hulu == "Yes" then image_tag "HuluLogo.png" end %></td>
+      <td style="text-align:center; width: 100px"><%= movie.year %></td>
     </tr>
-  <% end %>
-</table>
+    <% end %>
+  </table>
 </div>
-
-
-
