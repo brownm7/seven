@@ -41,6 +41,11 @@
     </div>
 </div>
 <!-- </div> -->
+<br>
+<center>
+<%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
+<%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
+</center>
 
 <div id="comDisplay">
   <h2>Comments</h2>
@@ -68,9 +73,6 @@
   	</p></center>
   	<% end %>
 </div>
-<center>
-<%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
-<%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
-</center>
+
 <br><br>
 </body>
