@@ -7,13 +7,13 @@
 
   <div id="midi">
     <center>
-    <h3><%= form_tag movies_path,  :method=> 'get' do %>
-      <%= label_tag "Search Movies:" %> &nbsp;
-      <%= text_field_tag :search, params[:search] %> &nbsp;
-      <%= submit_tag "LIFT OFF!", :name=> nil %>
-    <% end %></h3>
-    <h3 class="buttonLink" style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
-      </center>
+      <h3><%= form_tag movies_path,  :method=> 'get' do %>
+        <%= label_tag "Search Movies:" %> &nbsp;
+        <%= text_field_tag :search, params[:search] %> &nbsp;
+        <%= submit_tag "LIFT OFF!", :name=> nil %>
+      <% end %></h3>
+      <h3 class="buttonLink" style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
+    </center>
   </div>
 <!-- </div> -->
 
