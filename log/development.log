@@ -45642,6 +45642,7 @@ Processing by MoviesController#index as HTML
 Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.2ms)
 
 
+<<<<<<< Updated upstream
 Started GET "/" for ::1 at 2015-11-11 14:02:11 -0500
   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MoviesController#index as HTML
@@ -49855,3 +49856,2660 @@ Processing by MoviesController#show as HTML
   [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 7]]
   Rendered movies/show.html.erb within layouts/application (15.0ms)
 Completed 200 OK in 98ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+=======
+Started GET "/" for ::1 at 2015-11-11 09:34:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (192.2ms)
+Completed 200 OK in 293ms (Views: 289.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=star" for ::1 at 2015-11-11 09:35:22 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"star"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%star%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 09:35:30 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 54ms (Views: 45.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 09:35:37 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 56ms (Views: 55.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sort=title" for ::1 at 2015-11-11 09:35:45 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?sort=year" for ::1 at 2015-11-11 09:35:46 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"year"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY year[0m
+  Rendered movies/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/new" for ::1 at 2015-11-11 09:35:53 -0500
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 72ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 09:35:56 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 09:35:57 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/1/edit" for ::1 at 2015-11-11 09:35:59 -0500
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 09:36:04 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-11 18:14:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (184.4ms)
+Completed 200 OK in 291ms (Views: 287.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-11 18:14:35 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 18:15:01 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 62ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1/edit" for ::1 at 2015-11-11 18:15:12 -0500
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 18:15:19 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 86ms (Views: 85.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=star" for ::1 at 2015-11-11 18:15:22 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"star"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%star%')[0m
+  Rendered movies/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/new" for ::1 at 2015-11-11 18:15:32 -0500
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 18:15:57 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 18:15:59 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1/edit" for ::1 at 2015-11-11 18:16:01 -0500
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 18:16:08 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 92ms (Views: 91.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 18:16:59 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/application.self-cd5f4ab094ba50897c1c4c437f81cd98540104d9576afcc0471a7ac047ec0fd9.css?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/AmazonPrimeLogo-bbb8a26495a613df2375053ff878a77a0b70fe06abaee8eadffbf3d01e1179c4.png" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/HuluLogo-4ca1dc259b1f856c1821e93a7d0f6f4c837dc22a94ff1009803dff37a1067ed4.png" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/NetflixLogo-051081923ffc027859f3da6014976012db148e8e47bb3de09541815b2ca7ad87.png" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 18:16:59 -0500
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 18:17:11 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 18:17:39 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-11-11 20:01:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (187.1ms)
+Completed 200 OK in 280ms (Views: 276.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-11 20:01:23 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 117ms (Views: 115.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:01:42 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered movies/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 57ms (Views: 48.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:01:45 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered movies/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/application.self-cd5f4ab094ba50897c1c4c437f81cd98540104d9576afcc0471a7ac047ec0fd9.css?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:01:45 -0500
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:01:53 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:01:59 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered movies/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:02:13 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered movies/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/application.self-cd5f4ab094ba50897c1c4c437f81cd98540104d9576afcc0471a7ac047ec0fd9.css?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:02:13 -0500
+
+
+Started GET "/" for ::1 at 2015-11-11 20:02:26 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/application.self-cd5f4ab094ba50897c1c4c437f81cd98540104d9576afcc0471a7ac047ec0fd9.css?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/NetflixLogo-051081923ffc027859f3da6014976012db148e8e47bb3de09541815b2ca7ad87.png" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/AmazonPrimeLogo-bbb8a26495a613df2375053ff878a77a0b70fe06abaee8eadffbf3d01e1179c4.png" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/HuluLogo-4ca1dc259b1f856c1821e93a7d0f6f4c837dc22a94ff1009803dff37a1067ed4.png" for ::1 at 2015-11-11 20:02:26 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:02:26 -0500
+>>>>>>> Stashed changes
+
+
+Started GET "/" for ::1 at 2015-11-11 20:04:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (168.9ms)
+Completed 200 OK in 360ms (Views: 347.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/NetflixLogo-051081923ffc027859f3da6014976012db148e8e47bb3de09541815b2ca7ad87.png" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/AmazonPrimeLogo-bbb8a26495a613df2375053ff878a77a0b70fe06abaee8eadffbf3d01e1179c4.png" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/HuluLogo-4ca1dc259b1f856c1821e93a7d0f6f4c837dc22a94ff1009803dff37a1067ed4.png" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:04:14 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:04:17 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (54.1ms)
+Completed 200 OK in 114ms (Views: 107.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:08:11 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:08:11 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:08:23 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:08:23 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:08:34 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:08:35 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:08:43 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:08:43 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:09:26 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:09:26 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:09:49 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:09:49 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:09:50 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:13:40 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:13:40 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:13:58 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:14:22 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:14:30 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:14:33 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:14:46 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sort=title" for ::1 at 2015-11-11 20:14:47 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/movies?sort=year" for ::1 at 2015-11-11 20:14:54 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"year"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY year[0m
+  Rendered movies/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for ::1 at 2015-11-11 20:15:08 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 4]]
+  Rendered movies/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:15:12 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=spa" for ::1 at 2015-11-11 20:15:57 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"spa"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%spa%')[0m
+  Rendered movies/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?sort=title" for ::1 at 2015-11-11 20:15:59 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY title
+  Rendered movies/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=s" for ::1 at 2015-11-11 20:16:11 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"s"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (title LIKE '%s%')[0m
+  Rendered movies/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:17:34 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:18:27 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:18:54 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:18:54 -0500
+
+
+Started GET "/movies?utf8=%E2%9C%93&search=s" for ::1 at 2015-11-11 20:29:40 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"s"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (title LIKE '%s%')
+  Rendered movies/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/NetflixLogo-051081923ffc027859f3da6014976012db148e8e47bb3de09541815b2ca7ad87.png" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/AmazonPrimeLogo-bbb8a26495a613df2375053ff878a77a0b70fe06abaee8eadffbf3d01e1179c4.png" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/HuluLogo-4ca1dc259b1f856c1821e93a7d0f6f4c837dc22a94ff1009803dff37a1067ed4.png" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:29:40 -0500
+
+
+Started GET "/movies?sort=title" for ::1 at 2015-11-11 20:29:47 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"title"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY title[0m
+  Rendered movies/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 68ms (Views: 67.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:30:04 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:30:21 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:30:21 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:30:22 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:30:25 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:30:34 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:30:34 -0500
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:30:40 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:30:40 -0500
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:30:56 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:56 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:30:57 -0500
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:31:08 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/application.self-910e82d567afbb68b9e6bb055ddc8b6ae5a52911fb07d3be3dff77c21e651f1b.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:31:09 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:31:37 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:31:39 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:31:40 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:31:43 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:33:23 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/application.self-80d65472dc937cc086de3a3468a099bae0f2bbde2ccd998d93cee917773fdf8c.css?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:33:24 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:33:30 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/application.self-64114c195a2d64c055c440ef7748c451a11e31384fd7687d31db9ed1f7f47e2f.css?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:33:30 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:33:40 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/application.self-de63a0cf6a7b507fbb60c996992d70cc1d60757e3d9b9705cf8685970a6a4c0f.css?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:33:40 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:34:00 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:34:37 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:34:58 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/application.self-ea13feae02961d0d124eca1122d8941abff2185f6a9e5574256f400d10dc6715.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:34:58 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:35:12 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/application.self-8ad854a6da7d63fcd4229a56b7311c5198e07bc60863aa57dd595a8ccb1098d5.css?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:35:12 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:35:20 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/application.self-418f8977cac76323a93f0d701490e4a22c77669de5385d33b6f26c4e4eadc111.css?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:35:21 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:35:28 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/application.self-c44418ed90a889454882951b49b1eeb67c742a8993a57f67d465ed974af925fb.css?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:35:28 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:36:14 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for ::1 at 2015-11-11 20:36:16 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 4]]
+  Rendered movies/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for ::1 at 2015-11-11 20:37:31 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 4]]
+  Rendered movies/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/application.self-9cd06c8b2005ad32bbe2b0e4e76a0f5108af36ba3dcdacae67ce088c2be5d3b0.css?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:37:31 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:37:39 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:37:40 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:37:50 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:37:53 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:39:39 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/application.self-32f44b7d03ee04df103ce86042148e1716292c73b44ee53d35889f911ea02683.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:39:39 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:40:00 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:00 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:00 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:00 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:00 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:40:00 -0500
+
+
+Started GET "/assets/application.self-9d62c9ac0754823c16ad726e332d5f9f80b70a521ade6d7b43b9778021e0fe04.css?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:40:01 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:40:55 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/application.self-9fde9a4063323363638d7d2ac2b400d990524db3fb5d8ecddb147e65ed83ef62.css?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:40:55 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:41:02 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/application.self-d61db32e1a5eeb7cbdc7b6840c1fa31cca875d79f0dcf4e96c67a4cb2ccecbf1.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:41:02 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:41:12 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/application.self-335012ef834950d3bddda57e326b567b0d4a2d331193b024011467d6034424f9.css?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:41:12 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:41:19 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/application.self-d61db32e1a5eeb7cbdc7b6840c1fa31cca875d79f0dcf4e96c67a4cb2ccecbf1.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:41:19 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:41:27 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/application.self-abba36bbc184c4df22d772da97ed289e1e87638791bf7a8442a711249de14c4f.css?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:41:27 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:41:35 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/application.self-edf62ae85a14f428ba921cca1ab9cedd58bb53e5e0f6bb60afaa3b8f3a11f99a.css?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:41:36 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:43:25 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/application.self-91a284960f413a2f57440d6d0fd6376d5132f144da52ead317c9da93ccbdd371.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:43:25 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:44:46 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/application.self-91a284960f413a2f57440d6d0fd6376d5132f144da52ead317c9da93ccbdd371.css?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:44:46 -0500
+
+
+Started GET "/movies/6" for ::1 at 2015-11-11 20:50:57 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?[0m  [["movie_id", 6]]
+  Rendered movies/show.html.erb within layouts/application (224.2ms)
+Completed 200 OK in 344ms (Views: 320.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/application.self-12b70aec4b72585bacc03d5351489f670c3b809563719a8a449adab4ad474876.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/sanfrancisco-font.self-d36d0a104779a12018d35f5906d6a7d2e8a3cfa3d652a1e0bb55fbfc9425529a.css?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/parallax.self-5bab4b8e972fb28affd9d2cfa2dab6c902183ca1ca788bca0dc56b287eef6595.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/LuqySevenLogo-797ee08815e0e3b237a3b989a3c55fae3d9bebf251c5487828065f3b912da375.png" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/assets/maxresdefault-0f3b14ed07f2033b52d2b692a12fa32f4aa89e777065e3b2ff8da1138ea1dcfd.jpg" for ::1 at 2015-11-11 20:50:58 -0500
+
+
+Started GET "/movies" for ::1 at 2015-11-11 20:51:03 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 111ms (Views: 110.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/1" for ::1 at 2015-11-11 20:51:04 -0500
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."movie_id" = ?  [["movie_id", 1]]
+  Rendered movies/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.2ms)

@@ -4,6 +4,13 @@
 </div>
 
 <div id="showContent">
+<br>
+  <center>
+  <%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
+  <%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
+  </center>
+  <br>
+  <hr>
   <h2><%= @movie.title %></h2>
   <hr>
   <div class="showContainer">
@@ -24,21 +31,22 @@
     <%= @movie.description %>
   </p></div>
 
+
 </div>
 
-  <center>
-  <%= link_to 'Edit', edit_movie_path(@movie), :class=>"buttonLink" %>
-  <%= link_to 'Back to Movie List', movies_path, :class=>"buttonLink"%>
-  </center>
 
+
+<div id="comDisplay">
   <h2>Comments</h2>
   <% @movie.comments.each do |comment| %>
 	<p>
 		<h4 id="comment"><%= comment.body %></h4>
 		<h5 id="comment"><%= comment.created_at.to_time.strftime('%B %e, %I:%M %p') %></h5>
-	</p>
+  </p>
   <% end %>
-  
+</div>
+
+<div id="comAdd">
   <h2>Add a comment:</h2>
   <%= form_for([@movie, @movie.comments.build]) do |f|%>
   	<p id="comment_box">
@@ -48,5 +56,6 @@
   	<p id="comment_button">
   		<%= f.submit %>
   	</p>
-  	<% end %>	
+  	<% end %>
+</div>
 </body>
