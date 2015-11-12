@@ -18,7 +18,7 @@
         <strong>On Hulu:&nbsp;</strong>  <%= @movie.hulu %><br>
       </div>
   </div>
-
+<%= image_tag (@movie.id.to_s + ".jpg") %>
   <div class="bottom"><p>
       <strong>Description:&nbsp;</strong>
     <%= @movie.description %>
