@@ -101,6 +101,20 @@ div #bannertop {
 	position: relative;
 }
 
+div #wrapper {
+	overflow: auto;
+}
+
+div #HomeAdLeft {
+	position: relative;
+	float:left;
+}
+
+div #HomeAdRight {
+	position: relative;
+	float: right;
+}
+
 div #logotop {
 	width: 70%;
 	margin: auto;
