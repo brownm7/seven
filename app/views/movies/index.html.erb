@@ -15,16 +15,16 @@
       <h3 class="buttonLink" style="text-align:center"><%= link_to 'Add Movie', new_movie_path %>
     </center>
   </div>
-  <h3><center><%= image_tag("AmazonPrimeLogo.png", :alt => "AmazonPrimeLogo", :width => "25px") %>= Amazon Prime
-	<%= image_tag("NetflixLogo.png", :alt => "NetflixLogo", :width => "25px") %>= Netflix
-	<%= image_tag("HuluLogo.png", :alt => "HuluLogo",  :width => "25px") %>= Hulu</center></h3>
+  <h3><center><%= link_to image_tag("AmazonPrimeLogo.png", :alt => "AmazonPrimeLogo", :width => "25px"), :sort => "amazon DESC"%> = <%= link_to "Amazon Prime", :sort => "amazon DESC" %>
+	<%= link_to image_tag("NetflixLogo.png", :alt => "NetflixLogo", :width => "25px"), :sort => "netflix DESC"%> = <%= link_to "Netflix", :sort => "netflix DESC" %>
+	<%= link_to image_tag("HuluLogo.png", :alt => "HuluLogo", :width => "25px"), :sort => "hulu DESC"%> = <%= link_to "Hulu", :sort => "hulu DESC" %></center></h3>
 <!-- </div> -->
 <div id="wrapper">	
 	<div id="HomeAdLeft">
-		<%= image_tag("StarWarsAdLeft.jpg")%>
+		<%= image_tag("StarWarsAdLeft.jpg", :width => "100%")%>
 	</div>	
 	<div id="HomeAdRight">
-		<%= image_tag("StarWarsAdRight.jpg")%>
+		<%= image_tag("StarWarsAdRight.jpg", :width => "100%")%>
 	</div>	
 <div id="content">
   <table border="1" style="width:75%; margin:auto">
