@@ -97,6 +97,10 @@ body {
  	z-index: 50;
  }
 
+div #bannertop {
+	position: relative;
+}
+
 div #logotop {
 	width: 70%;
 	margin: auto;
