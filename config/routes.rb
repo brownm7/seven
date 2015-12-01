@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :movies do
     resources :comments
   end
+  get'/game' => 'si#game'
   # =======
   # >>>>>>> origin/master
   # The priority is based upon order of creation: first created -> highest priority.
